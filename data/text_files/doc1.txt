@@ -1,0 +1,7 @@
+Retrieval-Augmented Generation (RAG) is an AI framework that optimizes the performance of Large Language Models (LLMs) by connecting them to external, up-to-date knowledge bases. This addresses key limitations of standard LLMs, which are restricted to the static data they were trained on and can hallucinate or provide incorrect information
+    The RAG process works in several steps
+    Indexing/Pre-processing: Relevant external data (e.g., technical manuals, internal company documents, web content) is converted into numerical representations called vector embeddings and stored in a vector database.
+    Retrieval: When a user asks a question, the system uses the query to perform a semantic search of the vector database to find the most relevant data snippets.
+    Augmentation: The retrieved information is seamlessly integrated with the original user query, creating an enriched prompt that provides vital context.
+    Generation: The augmented prompt is then fed to the LLM, which uses the provided context to generate a more accurate, reliable, and grounded response. 
+    RAG offers significant benefits, including the ability to provide accurate and verifiable answers with source citations, reduce the chances of generating false information, and access the latest data without the high cost and time of constantly retraining the core LLM. This makes RAG ideal for enterprise applications like specialized chatbots and internal knowledge management systems. For building RAG systems, developers often use frameworks such as LangChain or LlamaIndex
