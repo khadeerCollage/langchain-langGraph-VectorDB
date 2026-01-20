@@ -11,3 +11,9 @@ python-dotenv
 typesense
 langchain_openai
 Langgraph
+arxiv
+wikipedia
+requests
+openai
+chromadb
+langchain-groq
